@@ -1,0 +1,18 @@
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>localhost</value>
+    </property>
+    <property>
+        <name>hbase.client.retries.number</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>hbase.client.pause</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>zookeeper.recovery.retry</name>
+        <value>1</value>
+    </property>
+</configuration>
